@@ -3,6 +3,7 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/achen-jun.github.io/",
   title: "阿晨君的文章库",
   description: "阿晨君的文章库",
   themeConfig: {
