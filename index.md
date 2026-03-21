@@ -12,16 +12,16 @@ hero:
       link: /
     - theme: alt
       text: AI玩法分享
-      link: /ai-gameplay
+      link: docs/ai-gameplay
     - theme: alt
       text: DeBug
-      link: /debug
+      link: docs/debug
     - theme: alt
       text: MTR
-      link: /mtr
+      link: docs/mtr
     - theme: alt
       text: 关于
-      link: /about
+      link: docs/about
 
 # features:
 #   - title: Feature A

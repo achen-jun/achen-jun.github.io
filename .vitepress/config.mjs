@@ -12,18 +12,18 @@ export default defineConfig({
     outline: [1,6],
     // 头部导航栏
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'AI玩法分享', link: '/ai-gameplay' },
-      { text: 'Debug', link: '/debug' },
-      { text: 'MTR', link: '/mtr' },
-      { text: '关于', link: '/about' }
+      { text: 'Home', link: 'docs/' },
+      { text: 'AI玩法分享', link: 'docs/ai-gameplay' },
+      { text: 'Debug', link: 'docs/debug' },
+      { text: 'MTR', link: 'docs/mtr' },
+      { text: '关于', link: 'docs/about' }
 
     ],
     // 侧边栏
     sidebar: {
-      "/ai-gameplay": set_sidebar("/ai-gameplay"),
-      "/debug": set_sidebar("/debug"),
-      "/mtr": set_sidebar("/mtr"),
+      "docs/ai-gameplay": set_sidebar("docs/ai-gameplay"),
+      "docs/debug": set_sidebar("docs/debug"),
+      "docs/mtr": set_sidebar("docs/mtr"),
     },
     // 搜索框
     search: {
