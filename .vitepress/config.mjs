@@ -16,7 +16,7 @@ export default defineConfig({
       { text: 'AI玩法分享', link: 'docs/ai-gameplay' },
       { text: 'Debug', link: 'docs/debug' },
       { text: 'MTR', link: 'docs/mtr' },
-      { text: '关于', link: 'docs/about' }
+      { text: '关于', link: '/about' }
 
     ],
     // 侧边栏

@@ -21,7 +21,7 @@ hero:
       link: docs/mtr
     - theme: alt
       text: 关于
-      link: docs/about
+      link: /about
 
 # features:
 #   - title: Feature A
